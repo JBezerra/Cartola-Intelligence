@@ -12,9 +12,6 @@ import {
 import { Line, Pie, HorizontalBar, Scatter, Bubble, Bar } from "react-chartjs-2";
 
 
-
-// function that returns a color based on an interval of numbers
-
 import Stats from "components/Stats/Stats.jsx";
 
 import {

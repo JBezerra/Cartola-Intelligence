@@ -121,8 +121,7 @@ class Header extends React.Component {
               (this.state.color === "transparent" ? "navbar-transparent " : "")
         }
       >
-      {/* <h1 className="">asd</h1> */}
-        <Container fluid>
+        {/* <Container fluid>
           <div className="navbar-wrapper">
             <div className="navbar-toggle">
               <button
@@ -136,14 +135,14 @@ class Header extends React.Component {
                 <span className="navbar-toggler-bar bar3" />
               </button>
             </div>
-            {/* <NavbarBrand href="/">{this.getBrand()}</NavbarBrand> */}
+            <NavbarBrand href="/">{this.getBrand()}</NavbarBrand>
           </div>
           <NavbarToggler onClick={this.toggle}>
             <span className="navbar-toggler-bar navbar-kebab" />
             <span className="navbar-toggler-bar navbar-kebab" />
             <span className="navbar-toggler-bar navbar-kebab" />
           </NavbarToggler>
-          {/* <Collapse
+          <Collapse
             isOpen={this.state.isOpen}
             navbar
             className="justify-content-end"
@@ -159,31 +158,7 @@ class Header extends React.Component {
               </InputGroup>
             </form>
             <Nav navbar>
-              <NavItem>
-                <Link to="#pablo" className="nav-link btn-magnify">
-                  <i className="nc-icon nc-layout-11" />
-                  <p>
-                    <span className="d-lg-none d-md-block">Stats</span>
-                  </p>
-                </Link>
-              </NavItem>
-              <Dropdown
-                nav
-                isOpen={this.state.dropdownOpen}
-                toggle={e => this.dropdownToggle(e)}
-              >
-                <DropdownToggle caret nav>
-                  <i className="nc-icon nc-bell-55" />
-                  <p>
-                    <span className="d-lg-none d-md-block">Some Actions</span>
-                  </p>
-                </DropdownToggle>
-                <DropdownMenu right>
-                  <DropdownItem tag="a">Action</DropdownItem>
-                  <DropdownItem tag="a">Another Action</DropdownItem>
-                  <DropdownItem tag="a">Something else here</DropdownItem>
-                </DropdownMenu>
-              </Dropdown>
+             
               <NavItem>
                 <Link to="#pablo" className="nav-link btn-rotate">
                   <i className="nc-icon nc-settings-gear-65" />
@@ -193,8 +168,8 @@ class Header extends React.Component {
                 </Link>
               </NavItem>
             </Nav>
-          </Collapse> */}
-        </Container>
+          </Collapse>
+        </Container> */}
       </Navbar>
     );
   }
